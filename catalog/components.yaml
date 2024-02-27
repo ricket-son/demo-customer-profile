@@ -11,6 +11,10 @@ spec:
   system: customer-profile
   dependsOn: 
     - component:default/customer-profile-frontend
+  links:
+    - url: https://customer-profile-frontend.dev-ns-01.tap.dieunkrauts.de
+      title: Customer Profile Application
+      icon: catalog
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component

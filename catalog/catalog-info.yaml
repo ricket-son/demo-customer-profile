@@ -5,6 +5,7 @@ metadata:
   description: "Catalog for the customer profile service"
   annotations:
     'backstage.io/techdocs-ref': dir:./..
+    backstage.io/techdocs-entity: location:default/customer-profile-catalog-info
 spec:
   targets:
     - ./system.yaml
