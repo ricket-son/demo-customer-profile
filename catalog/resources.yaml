@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: customer-profile-auth
+  description: Single Sign On Authentiction for Customer Profile
+spec:
+  type: sso
+  owner: customer-profile-team
+  system: customer-profile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: customer-profile-db
+  description: Customer Profile Postgres Database
+spec:
+  type: database
+  owner: customer-profile-team
+  system: customer-profile

@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: customer-profile-catalog-info
+  description: "Catalog for the customer profile service"
+  annotations:
+    'backstage.io/techdocs-ref': dir:./..
+spec:
+  targets:
+    - ./system.yaml
+    - ./group.yaml
+    - ./components.yaml
+    - ./resources.yaml

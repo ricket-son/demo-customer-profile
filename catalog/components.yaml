@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: customer-profile-frontend
+  annotations:
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=customer-profile-frontend"
+spec:
+  type: service
+  lifecycle: production
+  owner: customer-profile-team
+  system: customer-profile
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: customer-profile-backend
+  annotations:
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=customer-profile-backend"
+spec:
+  type: service
+  lifecycle: production
+  owner: customer-profile-team
+  system: customer-profile
+  dependsOn: 
+    - component: customer-profile-frontend

@@ -1,0 +1,10 @@
+site_name: Customer Profile Application Documentation
+nav:
+  - Home: index.md
+  - Frontend: frontend/README.md
+  - Backend: backend/README.md
+  - Database: backend/DATABASE.md
+  - Auth: frontend/AUTHORIZATION.md
+repo_url: https://github.com/ricket-son/demo-customer-profile
+plugins:
+  - techdocs-core

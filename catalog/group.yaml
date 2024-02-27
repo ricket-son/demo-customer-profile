@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: customer-profile-team
+  description: Responsible team for maintaining the customer profile application
+spec:
+  type: team
+  profile:
+    displayName: Customer Profile Team
+    email: support.customer-profile@dieunkrauts.de
+  children: []
+    
