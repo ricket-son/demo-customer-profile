@@ -6,4 +6,4 @@ spec:
   profile:
     displayName: Erik kaisler
     email: ekaisler@evoila.de
-  memberOf: ["operators", "developers", "admins"]
+  memberOf: ["operators", "developers", "customer-profile-team"]
