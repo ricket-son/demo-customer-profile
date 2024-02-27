@@ -9,5 +9,6 @@ spec:
   targets:
     - ./system.yaml
     - ./group.yaml
+    - ./user.yaml
     - ./components.yaml
     - ./resources.yaml
