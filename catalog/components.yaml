@@ -16,6 +16,7 @@ spec:
   system: customer-profile
   dependsOn: 
     - component:default/customer-profile-frontend
+    - resource:default/customer-profile-auth
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -35,3 +36,5 @@ spec:
   system: customer-profile
   dependencyOf: 
     - component:default/customer-profile-frontend
+  dependsOn:
+    - resource:default/customer-profile-db

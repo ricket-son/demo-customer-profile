@@ -4,4 +4,4 @@ metadata:
   name: customer-profile
   description: Customer Profile Application
 spec:
-  owner: developers
+  owner: customer-profile-team
