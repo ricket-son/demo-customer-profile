@@ -5,6 +5,10 @@ metadata:
   description: "Catalog for the customer profile service"
   annotations:
     'backstage.io/techdocs-ref': dir:./..
+  links:
+    - url: https://customer-profile-frontend.dev-ns-01.tap.dieunkrauts.de
+      title: Customer Profile Application
+      icon: catalog
 spec:
   targets:
     - ./system.yaml
