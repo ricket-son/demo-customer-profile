@@ -9,6 +9,8 @@ spec:
   lifecycle: production
   owner: customer-profile-team
   system: customer-profile
+  dependsOn: 
+    - component:default/customer-profile-frontend
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -21,5 +23,5 @@ spec:
   lifecycle: production
   owner: customer-profile-team
   system: customer-profile
-  dependsOn: 
-    - component: customer-profile-frontend
+  dependencyOf: 
+    - component:default/customer-profile-frontend
