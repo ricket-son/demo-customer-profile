@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: ekaisler
+  name: ricket-son
 spec:
   profile:
-    displayName: Erik kaisler
-    email: ekaisler@evoila.de
+    displayName: Erik Kaisler
+    email: erikkaisler@gmail.com
   memberOf: ["operators", "developers", "customer-profile-team"]
