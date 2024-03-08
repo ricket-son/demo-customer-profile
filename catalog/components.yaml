@@ -6,7 +6,7 @@ metadata:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=customer-profile-frontend"
     backstage.io/techdocs-entity: location:default/customer-profile-catalog-info
   links:
-    - url: https://customer-profile-frontend.dev-ns-01.tap.dieunkrauts.de
+    - url: https://customer-profile-frontend.dev-ns-01.tap.welovetap.de
       title: Customer Profile Application
       icon: catalog
 spec:
@@ -26,7 +26,7 @@ metadata:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=customer-profile-backend"
     backstage.io/techdocs-entity: location:default/customer-profile-catalog-info
   links:
-    - url: https://customer-profile-frontend.dev-ns-01.tap.dieunkrauts.de
+    - url: https://customer-profile-frontend.dev-ns-01.tap.welovetap.de
       title: Customer Profile Application
       icon: catalog
 spec:
