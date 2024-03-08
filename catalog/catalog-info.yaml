@@ -6,7 +6,7 @@ metadata:
   annotations:
     'backstage.io/techdocs-ref': dir:./..
   links:
-    - url: https://customer-profile-frontend.dev-ns-01.tap.dieunkrauts.de
+    - url: https://customer-profile-frontend.dev-ns-01.tap.welovetap.de
       title: Customer Profile Application
       icon: catalog
 spec:
