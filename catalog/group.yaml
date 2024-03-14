@@ -7,6 +7,6 @@ spec:
   type: team
   profile:
     displayName: Customer Profile Team
-    email: support.customer-profile@dieunkrauts.de
+    email: support.customer-profile@welovetap.de
   children: []
   parent: developers
